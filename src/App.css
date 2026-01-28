@@ -1007,3 +1007,21 @@ body {
 /*  */
 /*  */
 /*  */
+
+.footer {
+  padding: 18px 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+
+/* Brand highlight */
+.footer span {
+  color: #4f46e5; /* same primary blue as navbar */
+  font-weight: 600;
+}
