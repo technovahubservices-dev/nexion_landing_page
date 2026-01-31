@@ -8,6 +8,7 @@ import { Pricing } from "./Pricing.jsx";
 import { ScrollToTop } from "./ScrollToTop.jsx";
 import { FloatingCTA } from "./FloatingCTA.jsx";
 import { Contact } from "./Contact.jsx";
+import { Products } from "./Products.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <div className="main-content">
         <Features />
       </div>
+      <Products />
       <UseCases />
       <Pricing />
       <ScrollToTop />

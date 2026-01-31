@@ -1025,3 +1025,141 @@ body {
   color: #4f46e5; /* same primary blue as navbar */
   font-weight: 600;
 }
+
+
+/* product */
+/*  */
+/*  */
+.products-section {
+  padding: 120px 20px;
+  background:
+    radial-gradient(
+      circle at top center,
+      rgba(79, 70, 229, 0.12),
+      transparent 60%
+    ),
+    linear-gradient(180deg, #f9fafb 0%, #ffffff 100%);
+}
+
+.products-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 60px;
+}
+
+/* LEFT NAV */
+.products-nav h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.product-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.product-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.25s ease;
+}
+
+.product-step:hover {
+  opacity: 1;
+}
+
+.product-step.active {
+  opacity: 1;
+}
+
+.step-index {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #e0e7ff;
+  color: #4f46e5;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.product-step.active .step-index {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #ffffff;
+}
+
+.product-step h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.product-step p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* RIGHT */
+.products-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product-preview {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+}
+
+.product-preview img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-details h3 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.product-details ul {
+  padding-left: 18px;
+}
+
+.product-details li {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .products-container {
+    grid-template-columns: 1fr;
+  }
+
+  .products-nav h2 {
+    font-size: 28px;
+  }
+}
+/*  */
+/*  */
+/*  */

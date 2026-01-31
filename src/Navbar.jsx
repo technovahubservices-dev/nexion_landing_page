@@ -21,6 +21,7 @@ export const Navbar = () => {
         <div className="navbar-right">
           <nav className={`navbar-links ${menuOpen ? "active" : ""}`}>
             <a href="#features">Features</a>
+            <a href="#products">Products</a>
             <a href="#usecases">Use Cases</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
