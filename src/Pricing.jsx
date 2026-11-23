@@ -14,7 +14,7 @@ export const Pricing = () => {
           <div className="pricing-card">
             <h3>Starter</h3>
             <p className="price">
-              ₹2,999<span>/month</span>
+              ₹7,000<span>/month</span>
             </p>
 
             <ul>
@@ -32,7 +32,7 @@ export const Pricing = () => {
             <span className="badge">Most Popular</span>
             <h3>Growth</h3>
             <p className="price">
-              ₹7,999<span>/month</span>
+              ₹10,000<span>/month</span>
             </p>
 
             <ul>
